@@ -2,6 +2,6 @@ project: bitstream
 target: fuzz-bit
 
 cmds:
-  - cmd: /src/mayhem/fuzz_bit.py
+  - cmd: /fuzz_bit.py
     libfuzzer: true
     timeout: 12
