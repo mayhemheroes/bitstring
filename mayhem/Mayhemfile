@@ -1,7 +1,5 @@
 project: bitstream
 target: fuzz-bit
-testsuite:
-    - file://mayhem/testsuite
 
 cmds:
   - cmd: /src/mayhem/fuzz_bit.py
