@@ -1,0 +1,7 @@
+project: bitstream
+target: fuzz-bit
+
+cmds:
+  - cmd: /fuzz_bit.py
+    libfuzzer: true
+    timeout: 12
