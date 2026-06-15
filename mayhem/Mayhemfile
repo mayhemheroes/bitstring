@@ -1,0 +1,6 @@
+project: bitstring
+target: fuzz-bit
+cmds:
+  - cmd: /mayhem/fuzz-bit
+    libfuzzer: true
+    timeout: 30
